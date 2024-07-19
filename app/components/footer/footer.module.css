@@ -1,0 +1,289 @@
+.footer-main {
+    background-image: url(../../../public/assets/footer-inside-img.png);
+    background-color: rgba(19, 46, 61, 1);
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+    /* gap: 100px; */
+    width: 90%;
+    margin: 100px 10px;
+    padding: 50px 50px;
+
+}
+
+.support-partners {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.join-support {
+    font-size: 48px;
+    max-width: 50%;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(162, 171, 180, 0.48);
+}
+
+.contact-us {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.Name {
+    width: 159.16px;
+    height: 48px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid #949BA2;
+    background-color: transparent;
+    color: rgba(189, 190, 196, 1);
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.Email {
+    width: 159.16px;
+    height: 48px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid #949BA2;
+    background-color: transparent;
+    color: rgba(189, 190, 196, 1);
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.text-area {
+    width: 353.32px;
+    height: 111px;
+    padding: 47px 20px 47px 20px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid #95989F;
+    background: transparent;
+    outline: none;
+    color: rgba(189, 190, 196, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 70px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.urgency-main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.line {
+    margin: 0 50px;
+    height: 1px;
+    background: #736E69;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.41999998688697815px;
+    text-align: left;
+    color: rgba(140, 146, 158, 1);
+}
+
+.send-message {
+    width: 80%;
+    /* height: 48px; */
+    padding: 16px 20px;
+    gap: 8px;
+    border-radius: 32px;
+    opacity: 0px;
+    background-color: #fff;
+    color: #736E69;
+}
+
+@media (max-width: 700px) {
+    .contact-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        width: 90%;
+        margin: 50px 0px;
+        padding: 10px 10px;
+    }
+
+    .join-support {
+
+        font-size: 24px;
+        max-width: 50%;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.04em;
+        text-align: left;
+    }
+
+    .contact-us {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 14.35px;
+        letter-spacing: -0.04em;
+        text-align: left;
+    }
+
+    .Name {
+        width: 64px;
+        height: 24px;
+        padding: 3.79px 8px 3.79px 8px;
+        gap: 2.71px;
+        border-radius: 16px;
+        border: 0.27px solid #BDBEC4;
+        opacity: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 4.59px;
+        letter-spacing: -0.1733333319425583px;
+        text-align: left;
+    }
+
+    .Email {
+        width: 64px;
+        height: 24px;
+        padding: 3.79px 8px 3.79px 8px;
+        gap: 2.71px;
+        border-radius: 16px;
+        border: 0.27px solid #BDBEC4;
+        opacity: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 4.59px;
+        letter-spacing: -0.1733333319425583px;
+        text-align: left;
+
+
+    }
+
+    .text-area {
+        width: 140px;
+        height: 46px;
+        padding: 12.73px 8px 12.73px 8px;
+        gap: 2.71px;
+        border-radius: 16px;
+        border: 0.27px solid #BDBEC4;
+        opacity: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 4.59px;
+        letter-spacing: -0.1733333319425583px;
+        text-align: left;
+    }
+
+    .footer-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .support-partners {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .send-message {
+        width: 80%;
+        /* height: 48px; */
+        padding: 14px 20px;
+        gap: 8px;
+        border-radius: 32px;
+        opacity: 0px;
+        background-color: #fff;
+        color: #736E69;
+
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 8.86px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+    .footer-logo{
+        display: flex;
+        flex-direction: row;
+    }
+.copyright{
+    flex-direction: column;
+}
+}

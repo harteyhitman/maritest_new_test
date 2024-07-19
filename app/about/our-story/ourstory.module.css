@@ -1,0 +1,145 @@
+.mission {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+}
+
+.right-rational {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.our-story {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 50px;
+}
+
+.rational-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: rgba(23, 21, 76, 1);
+}
+
+.what-we-do {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(244, 96, 54, 1);
+}
+
+.small-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    color: rgba(23, 21, 76, 1);
+}
+
+.down-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.recovery {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    color: rgba(23, 21, 76, 1);
+    max-width: 50%;
+    padding: 0 50px;
+}
+
+.twomoon {
+    display: flex;
+    transform: scaleX(-1);
+}
+@media (max-width: 700px) {
+    .mission {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    
+    .our-story {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 50px;
+    }
+    .right-rational {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .what-we-do {
+
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 53px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: rgba(244, 96, 54, 1);
+    }
+    .rational-text {
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-align: left;
+        color: rgba(23, 21, 76, 1);
+    }
+    .small-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: justify;
+        color: rgba(23, 21, 76, 1);
+    }
+    .down-part {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .recovery {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: justify;
+        color: rgba(23, 21, 76, 1);
+        max-width: 100%;
+        padding: 0 50px;
+    }
+}

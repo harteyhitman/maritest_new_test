@@ -1,0 +1,67 @@
+.boards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 100px 0;
+    
+}
+
+.boards-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.new-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #17154C;
+}
+
+.new-text-big {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #F46036;
+}
+
+.advisory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+@media (max-width: 700px) {
+    .boards-view{
+        flex-direction: column;
+    }
+    .new-text-big {
+        font-size: 30px;
+    }
+    .boards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin: 50px 0;
+        
+    }
+}
