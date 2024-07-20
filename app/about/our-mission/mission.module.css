@@ -12,7 +12,6 @@
     width: 620px;
     /* height: 317px; */
     gap: 26px;
-    opacity: 0px;
 
 }
 
@@ -82,7 +81,7 @@
         width: auto;
         /* height: 317px; */
         gap: 26px;
-        opacity: 0px;
+
 
     }
 }

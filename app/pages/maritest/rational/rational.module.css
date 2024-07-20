@@ -39,7 +39,6 @@
     width: 528px;
     /* height: 120px; */
     gap: 0px;
-    opacity: 0px;
 
 
 }
@@ -138,7 +137,7 @@ text-align: left;
         flex-direction: column;
         width: 326px;
         gap: 10px;
-        opacity: 0px;
+
         text-align: justify;
         justify-content: left;
     }

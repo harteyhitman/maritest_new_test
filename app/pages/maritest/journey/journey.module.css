@@ -32,7 +32,6 @@
     width: 316px;
     height: 54px;
     gap: 0px;
-    opacity: 0px;
     
 }
 .sponsors{
@@ -72,7 +71,7 @@ color: #DA6F51;
         width: 152px;
         height: 38px;
         gap: 0px;
-        opacity: 0px;
+
         
     }
     .journey-header{

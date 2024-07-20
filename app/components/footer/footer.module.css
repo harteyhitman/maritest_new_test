@@ -155,7 +155,6 @@
     padding: 16px 20px;
     gap: 8px;
     border-radius: 32px;
-    opacity: 0px;
     background-color: #fff;
     color: #736E69;
 }
@@ -198,7 +197,7 @@
         gap: 2.71px;
         border-radius: 16px;
         border: 0.27px solid #BDBEC4;
-        opacity: 0px;
+
         font-size: 10px;
         font-weight: 600;
         line-height: 4.59px;
@@ -213,7 +212,7 @@
         gap: 2.71px;
         border-radius: 16px;
         border: 0.27px solid #BDBEC4;
-        opacity: 0px;
+
         font-size: 10px;
         font-weight: 600;
         line-height: 4.59px;
@@ -230,7 +229,7 @@
         gap: 2.71px;
         border-radius: 16px;
         border: 0.27px solid #BDBEC4;
-        opacity: 0px;
+
         font-size: 10px;
         font-weight: 600;
         line-height: 4.59px;
@@ -268,7 +267,7 @@
         padding: 14px 20px;
         gap: 8px;
         border-radius: 32px;
-        opacity: 0px;
+
         background-color: #fff;
         color: #736E69;
 

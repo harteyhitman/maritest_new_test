@@ -47,7 +47,6 @@
     gap: 12.3px;
     border-radius: 39.37px;
     border: 1.23px solid #fff;
-    opacity: 0px;
     color: #fff;
 }
 .text-area-input::placeholder{
@@ -59,10 +58,8 @@ height:59.05px;
 padding: 19.68px 24.61px;
 gap: 9.84px;
 border-radius: 39.37px;
-opacity: 0px;
 background-color: #fff;
 color: #B1B9BE;
-
 }
 @media (max-width: 700px) {
     .contacts {
@@ -120,11 +117,10 @@ color: #B1B9BE;
         gap: 12.3px;
         border-radius: 39.37px;
         border: 1.23px solid #fff;
-        opacity: 0px;
+
 
         color: #fff;
     }
-
     .text-area-input {
         width: 80%;
         /* height: 136.65px; */
@@ -132,7 +128,7 @@ color: #B1B9BE;
         gap: 12.3px;
         border-radius: 39.37px;
         border: 1.23px solid #fff;
-        opacity: 0px;
+
         color: #fff;
     }
 
