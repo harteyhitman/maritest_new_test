@@ -6,10 +6,16 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  font-family: 'Roboto', sans-serif;}
-img{
+
+}  img{
   max-width: 100%
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work sans', sans-serif;
+  font-weight: 600;
+}
+p
+{
+  font-family: 'Work sans', sans-serif;
+  font-weight: 400;
 }

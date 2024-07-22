@@ -68,20 +68,20 @@ const Footer: React.FC<FooterProps> = ({
                     <form className={`
                     ${footerStyles["form"]} 
                     ${formatted}`}>
-                        <div className="info">
+                        <div className={footerStyles["info"]}>
                             <input
                                 type="text"
                                 placeholder='Name'
                                 className={`
-                        ${footerStyles['Name']} 
-                        ${inputContact}`}
+                                ${footerStyles['Name']} 
+                                ${inputContact}`}
                             />
                             <input
                                 type="email"
                                 placeholder='Email'
                                 className={`
-                        ${footerStyles['Email']} 
-                        ${inputContact}`}
+                                ${footerStyles['Email']} 
+                                ${inputContact}`}
                             />
                         </div>
                         <input

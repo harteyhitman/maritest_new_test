@@ -60,8 +60,10 @@
 
 .info {
     display: flex;
-    flex-direction: column;
-    gap: 22px;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .Name {
@@ -169,7 +171,7 @@
         border-top-right-radius: 34px;
         width: 90%;
         margin: 50px 0px;
-        padding: 10px 10px;
+        padding: 20px 30px;
     }
 
     .join-support {
@@ -246,7 +248,7 @@
 
     .form {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         gap: 20px;
         text-align: center;
@@ -263,19 +265,14 @@
 
     .send-message {
         width: 80%;
-        /* height: 48px; */
         padding: 14px 20px;
         gap: 8px;
         border-radius: 32px;
-
         background-color: #fff;
         color: #736E69;
-
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 600;
-        line-height: 8.86px;
-        letter-spacing: -0.02em;
-        text-align: left;
+        text-align: center;
 
     }
     .footer-logo{
@@ -284,5 +281,10 @@
     }
 .copyright{
     flex-direction: column;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }
