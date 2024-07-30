@@ -47,7 +47,9 @@
 
     .spiral {
         width: 200px;
-        height: 33px
+        height: 33px;
+        position:relative;
+        z-index: 1;
     }
 
     .learn-more {
@@ -67,6 +69,7 @@
         width: 172px;
         position: relative;
         top: -40px;
+        z-index: 1;
     }
 
     .top-btn {

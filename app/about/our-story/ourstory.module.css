@@ -3,7 +3,6 @@
     flex-direction: column;
     margin-bottom: 10em;
 }
-
 .right-rational {
     display: flex;
     flex-direction: column;
@@ -11,14 +10,12 @@
     justify-content: center;
     max-width: 50%;
 }
-
 .our-story {
     display: flex;
     align-items: center;
     gap: 30px;
     padding: 50px 50px;
 }
-
 .rational-text {
     font-size: 18px;
     font-weight: 700;
@@ -27,7 +24,6 @@
     text-align: left;
     color: rgba(23, 21, 76, 1);
 }
-
 .what-we-do {
     font-size: 48px;
     font-weight: 600;
@@ -36,7 +32,6 @@
     text-align: left;
     color: rgba(244, 96, 54, 1);
 }
-
 .small-text {
     display: flex;
     flex-direction: column;
@@ -47,14 +42,12 @@
     text-align: justify;
     color: rgba(23, 21, 76, 1);
 }
-
 .down-part {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
-
 .recovery {
     display: flex;
     flex-direction: column;
@@ -67,10 +60,10 @@
     max-width: 50%;
     padding: 0 50px;
 }
-
-.twomoon {
-    display: flex;
-    transform: scaleX(-1);
+.two-moons{
+    transform: scaleX(1);
+    background-color: red;
+    border: 1px solid blue;
 }
 @media (max-width: 700px) {
     .mission {

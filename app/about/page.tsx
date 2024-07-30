@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
         <div className={about['about-hero']}>
-       <Image src={Mosaic} alt='' className=' w-[100%]'/>
+       <Image src={Mosaic} alt='' className={about['about-mosaic']}/>
        <div className={about['main']}>
        <Navbar />
        <OurMission />

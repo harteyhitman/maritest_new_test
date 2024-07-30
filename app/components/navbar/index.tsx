@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [isFixed, setIsFixed] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
 
     const toggleMenu = () => {
@@ -40,18 +41,28 @@ const Navbar: React.FC = () => {
             }
         };
 
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setIsFixed(true);
+            } else {
+                setIsFixed(false);
+            }
+        };
+
         handleResize();
         window.addEventListener('resize', handleResize);
         document.addEventListener('mousedown', handleClickOutside);
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
             window.removeEventListener('resize', handleResize);
             document.removeEventListener('mousedown', handleClickOutside);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
     return (
-        <nav className={styles['navbar']}>
+        <nav className={`${styles['navbar']} ${isFixed ? styles['fixed-navbar'] : ''}`}>
             <Link href="/">
                 <Image
                     src={Frame}
@@ -92,5 +103,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-
-

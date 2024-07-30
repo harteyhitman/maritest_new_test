@@ -7,7 +7,7 @@ const Contacts = () => {
     <div className={contact['contacts']}>
       <Navbar />
       <Footer 
-        className={contact["contact-main"]} 
+        className={contact["contact-main"]}
         contactFooter={contact["contact-footer"]} 
         supportPartners={contact['partners']} 
         joinSupport={contact['support']}  

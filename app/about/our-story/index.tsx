@@ -33,7 +33,7 @@ const OurStory = () => {
                     <Image
                         src={Twomoon}
                         alt='moon'
-                        className={urgency['two-moons']}
+                        className={urgency['two-moons transform scale-x-[-1]']}
                     />
                     <Image
                         src={Twomoon}
